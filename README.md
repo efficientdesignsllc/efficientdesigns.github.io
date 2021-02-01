@@ -1,1 +1,0 @@
-# efficientdesings.github.io
