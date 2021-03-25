@@ -51,13 +51,13 @@
     <a class="current" href=".">Home</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#nvidia-rtx-30803090-vram-throttling">NVIDIA RTX 3080/3090 VRAM Throttling</a></li>
+    <li class="toctree-l2"><a href="#nvidia-rtx-30803090-founders-edition-vram-throttling">NVIDIA RTX 3080/3090 Founders Edition VRAM Throttling</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#commands">Commands</a></li>
+            <li><a class="toctree-l3" href="#tear-down-steps">Tear Down Steps</a></li>
         
-            <li><a class="toctree-l3" href="#project-layout">Project layout</a></li>
+            <li><a class="toctree-l3" href="#discussion">Discussion</a></li>
         
             <li><a class="toctree-l3" href="#buy-here">Buy Here</a></li>
         
@@ -99,21 +99,37 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="nvidia-rtx-30803090-vram-throttling">NVIDIA RTX 3080/3090 VRAM Throttling</h1>
-<p>For full documentation visit <a href="https://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+                <h1 id="nvidia-rtx-30803090-founders-edition-vram-throttling">NVIDIA RTX 3080/3090 Founders Edition VRAM Throttling</h1>
+<h2 id="tear-down-steps">Tear Down Steps</h2>
+<ol>
+<li>Remove the “V-cover” on the fan side front</li>
+<li>Tools Required: None (possibly pry too)</li>
+<li>Remove 4 screws under V-cover</li>
+<li>Tools Required: Philips screwdriver</li>
+<li>Remove screw cap covers on the front non-fan side</li>
+<li>Tools Required: Tape or other adhesive</li>
+<li>Remove 4 screws under the covers</li>
+<li>Tools Required: Torx T5</li>
+<li>Remove Back Cover</li>
+<li>Remove Bracket</li>
+<li>Tools Required: Torx T8</li>
+<li>Remove Leaf Spring from rear</li>
+<li>Tools Required: Torx T6</li>
+<li>Unplug 3 Connectors (extremely careful on light connector)</li>
+<li>Tools Required: Shim</li>
+<li>Lift the PCB</li>
+<li>Clean Off Paste and Thermal Pads</li>
+<li>Tools Required: Isopropyl Alcohol</li>
+<li>Apply Pads based on the following pictures:</li>
+<li>Pic 1 of front</li>
+<li><strong>RTX 3090 PCB Backside</strong></li>
+<li><img alt="Screenshot" src="img/3090-back.jpg" /></li>
+<li>Apply new thermal paste (recommend high quality)</li>
+<li>Reassemble</li>
+<li>Mine == Profit</li>
+</ol>
+<h2 id="discussion">Discussion</h2>
+<p>Visit miningfordudes.com for crypto-related feed and discussion!</p>
 <h2 id="buy-here">Buy Here</h2>
 <div id='product-component-1612211039585'></div>
 
@@ -243,5 +259,5 @@ docs/
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2021-03-19 00:27:52
+Build Date UTC : 2021-03-25 01:33:29
 -->
